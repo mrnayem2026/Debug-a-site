@@ -73,7 +73,7 @@ const displayQuiz = (data) => {
   });
 };
 
-// EventListener for quiz submit button
+// EventListenerss for quiz submit button
 document.querySelector("#submit").addEventListener("click", function(){
   if (answers.length < 6) {
     return;
