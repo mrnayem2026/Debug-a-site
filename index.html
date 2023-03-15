@@ -14,11 +14,6 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Quiz Hero</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="./index.js" defer></script>
-
-  <!-- You don't need to change noChange.js file. It's fine -->
-  <script src="./noChange.js" defer></script>
-  <!-- You don't need to change noChange.js file. It's fine -->
 
   <script>
     tailwind.config = {
@@ -124,7 +119,7 @@
   <section class="md:w-9/12 w-[90%] md:flex-row flex-col mx-auto hidden" id="submitContainer">
     <!-- Question section start -->
     <div class="md:w-[70%] w-full">
-      <div class="duration-500" class="quizContainer"></div>
+      <div class="duration-500" id="quizContainer"></div>
     </div>
     <!-- Question section end -->
     <!-- Answer section start -->
@@ -167,6 +162,13 @@
     Copyright © 2023 Quiz Hero All Rights Reserved.
   </footer>
   <!-- Footer section end -->
+
+  <script src="./index.js" defer></script>
+
+  <!-- You don't need to change noChange.js file. It's fine -->
+  <script src="./noChange.js" defer></script>
+  <!-- You don't need to change noChange.js file. It's fine -->
+
 </body>
 
 </html>
